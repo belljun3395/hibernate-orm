@@ -56,6 +56,7 @@ public abstract class BasicBinder<J> implements ValueBinder<J>, Serializable {
 						getJavaType().extractLoggableRepresentation( value )
 				);
 			}
+			// TODO: check this point
 			doBind( st, value, index, options );
 		}
 	}
